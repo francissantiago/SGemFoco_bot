@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "21b77fc39cb6bef9ea8bafb2c6aa540e",
+    "packages": [
+        {
+            "name": "radyakaze/telebot",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/radyakaze/telebot.git",
+                "reference": "92ad8e76a2c2f05e1cbbe94df504a67fe6b8d7aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/radyakaze/telebot/zipball/92ad8e76a2c2f05e1cbbe94df504a67fe6b8d7aa",
+                "reference": "92ad8e76a2c2f05e1cbbe94df504a67fe6b8d7aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TeleBot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Radya",
+                    "email": "radya.38@gmail.com"
+                }
+            ],
+            "description": "TeleBot - Simple PHP Telegram Bot",
+            "homepage": "http://github.com/radyakaze/telebot",
+            "keywords": [
+                "api",
+                "bot",
+                "sdk",
+                "telegram"
+            ],
+            "abandoned": "radyakaze/phptelebot",
+            "time": "2015-08-17T05:30:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4",
+        "ext-curl": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

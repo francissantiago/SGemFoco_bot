@@ -1,0 +1,48 @@
+[
+    {
+        "name": "radyakaze/telebot",
+        "version": "0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/radyakaze/telebot.git",
+            "reference": "92ad8e76a2c2f05e1cbbe94df504a67fe6b8d7aa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/radyakaze/telebot/zipball/92ad8e76a2c2f05e1cbbe94df504a67fe6b8d7aa",
+            "reference": "92ad8e76a2c2f05e1cbbe94df504a67fe6b8d7aa",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-08-17T05:30:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TeleBot\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Radya",
+                "email": "radya.38@gmail.com"
+            }
+        ],
+        "description": "TeleBot - Simple PHP Telegram Bot",
+        "homepage": "http://github.com/radyakaze/telebot",
+        "keywords": [
+            "api",
+            "bot",
+            "sdk",
+            "telegram"
+        ],
+        "abandoned": "radyakaze/phptelebot"
+    }
+]
